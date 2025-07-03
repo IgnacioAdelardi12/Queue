@@ -10,18 +10,6 @@ make test
 make clean
 ```
 
-## Project Structure
-
-Queue/
-├── includes/
-│   └── queue.h          # Public interface
-├── src/
-│   └── queue.c          # Internal implementation
-├── tests/
-│   └── queueTests.c     # Unit and stress tests
-├── Makefile             # Build system
-└── README.md
-
 ## Features
 - Fully generic via void * (can store any pointer type)
 - All operations guaranteed in constant time O(1)
